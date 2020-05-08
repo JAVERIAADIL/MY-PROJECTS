@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="saylani-logo.png" alt="Saylani Logo" class="align">
+    <h1 align="center"> <u> STUDENT REGISTRATION FORM </u></h1>
+
+    <form action="secondpage.html">
+
+        <p>
+
+            <label for="FirstName">FIRST NAME</label>
+            <input type="text" placeholder="Enter First Name" maxlength="30" size="15" name="First Name" id="FirstName">
+            (max 30 characters a-z and A-Z) <br></p>
+
+        <p> <label for="LastName">LAST NAME</label>
+            <input type="text" placeholder="Enter Last Name" maxlength="30" size="15" name="Last Name" id="LastName">
+            (max 30 characters a-z and A-Z) <br></p>
+
+        <p> <label for="Date">DATE OF BIRTH</label>
+            <input type="date" id="Date" name="Date Of Birth">
+            <br></p>
+
+        <p> <label for="Email">EMAIL ID</label>
+            <input type="email" placeholder="Enter email address" id="Email">
+            <br></p>
+
+        <p> <label for="MobileNumber">MOBILE NUMBER</label>
+            <input type="number" placeholder="Enter Mobile Number" maxlength="10" size="10" id="MobileNumber">
+            (10 digit number) <br></p>
+
+        <p> <label for="Gender">GENDER</label>
+            Male<input type="radio" name="gender" value="Male" id="Gender">
+            Female<input type="radio" name="gender" value="Female" id="Gender">
+            <br></p>
+        <p> <label for="Address">ADDRESS</label>
+            <textarea name="address" id="Address" cols="30" rows="10"></textarea>
+            <br></p>
+
+        <p> <label for="City">CITY</label>
+            <input type="text" placeholder="Enter City Name" maxlength="30" size="15" name="city" id="City">
+            (max 30 characters a-z and A-Z) <br></p>
+
+        <p> <label for="PinCode">PIN CODE</label>
+            <input type="number" placeholder="Enter Pin Code" maxlength="6" size="6" id="PinCode">
+            (6 digit number) <br></p>
+
+        <p> <label for="State">STATE</label>
+            <input type="text" placeholder="Enter State" maxlength="30" size="15" name="state" id="State">
+            (max 30 characters a-z and A-Z) <br></p>
+
+
+        <p> <label for="Country">COUNTRY</label>
+            <input type=" text" placeholder="Enter Country " name="country" id="Country">
+            <br></p>
+        <p> <label for="Hobbies">HOBBIES</label>
+            Drawing <input type="checkbox" name="Hobby" value="Drawing" id="Hobbies">
+            Singing <input type="checkbox" name="Hobby" value="Singing" id="Hobbies">
+            Dancing <input type="checkbox" name="Hobby" value="Dancing" id="Hobbies">
+            Sketching <input type="checkbox" name="Hobby" value="Sketching" id="Hpbbies">
+            <br>
+            
+            Others <input type="checkbox" name="Hobby" value="Others" id="Hobbies" >
+            <input type="text " id="Hobbies" name="Hobby"><br></p>
+        
+
+
+        <p> <label for="FirstName">QUALIFICATION</label>
+            
+            <table>
+                <tr>
+                    <td>SI.NO</td>
+                    <td>Examination</td>
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year Of Passing</td>
+                </tr>
+                <tr>
+                    
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="board" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="Percentage" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="YearOfPassing" minlength="1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" name="board" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="Percentage" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="YearOfPassing" minlength="1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" name="board" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="Percentage" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="YearOfPassing" minlength="1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" name="board" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="Percentage" minlength="1" maxlength="10"></td>
+                    <td><input type="text" name="YearOfPassing" minlength="1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td align="center">(10 char max)</td>
+                    <td align="center">(upto 2 decimal)</td>
+                </tr>
+                </table></p>
+
+        <p><label for="COURSE">COURSES APPLIED FOR</label>
+        
+
+            BCA<input type="radio" name="course" value="BCA" id="COURSE">
+            B.Com<input type="radio" name="course" value="B.Com" id="COURSE">
+            B.Sc<input type="radio" name="course" value="B.Sc" id="COURSE">
+            B.A<input type="radio" name="course" value="B.A" id="COURSE">
+
+        </p>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+
+    </form>
+    </table>
+</body>
+
+</html>
